@@ -1,0 +1,77 @@
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	list-style: none;
+}
+body {
+	background-color: antiquewhite;
+}
+.front {
+	width: 95%;
+	margin: 0 auto;
+}
+.head {
+	font-family: "Times New Roman","宋体";
+	font-size: 5rem;
+	text-align: center;
+}
+.audio {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+	padding: 5px;
+	
+	margin-left: auto;
+	padding-top: 20px;
+	text-align: center;
+	font-size: 20px;
+	font-family: "宋体";
+}
+.audio audio {
+	width: 300px;
+	border: 10px solid #ff6b81;
+	border-radius: 45px;
+}
+.audio_foot {
+	text-align: center;
+	font-size: 20px;
+	font-family: "宋体";
+}
+.start {
+	font-family: "Times New Roman","宋体";
+	font-size: 30px;
+}
+.start-article {
+	line-height: 150px;
+	text-align: center;
+}
+/* .start hr {
+	margin-left: auto; 
+	text-align: center; 
+	FILTER: alpha(opacity=100,finishopacity=0,style=3)
+	color="black" 
+	SIZE=4
+} */
+.audio2 {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 100px;
+	padding: 5px;
+	
+	margin-left: auto;
+	padding-top: 20px;
+	text-align: center;
+	font-size: 20px;
+	font-family: "宋体";
+}
+.audio2 audio {
+	width: 300px;
+	border: 10px solid #ff6b81;
+	border-radius: 45px;
+}
+.end-article {
+	line-height: 150px;
+	text-align: center;
+}
