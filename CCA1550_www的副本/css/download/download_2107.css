@@ -1,0 +1,207 @@
+* {
+	margin: 0;
+	padding: 0;
+	/* border: 0; */
+	list-style: none;
+}
+
+header .nav {
+	height: 2.5rem;
+}
+header .title {
+	height: auto;
+	width: 400px;
+	padding-left: 10px;
+	/*这行最后注释掉*/
+	border: 4px solid black;
+	float: left;
+}
+header .button_nav {
+	position: relative;
+	font-size: 30px;
+	text-align: center;
+	right: 10px;
+	height: auto;
+	width: 230px;
+	/*这行最后注释掉*/
+	border: 4px solid black;
+	float: right;
+}
+header .button_index {
+	height: auto;
+	width: 70px;
+	/*这行最后注释掉*/
+	/* border: 2px solid black; */
+	float: left;
+}
+header .button_photo {
+	height: auto;
+	width: 70px;
+	/*这行最后注释掉*/
+	/* border: 2px solid black; */
+	float: left;
+}
+header .button_download {
+	height: auto;
+	width: 70px;
+	/*这行最后注释掉*/
+	/* border: 2px solid black; */
+	float: left;
+}
+
+article a {
+	color: #3742fa;
+	/* text-shadow: black 3px 0 0; */
+	text-decoration: none;
+}
+article a :hover {
+	color: #70a1ff;
+}
+article .subtitle {
+	height: 45px;
+	width: 380px;
+	overflow-y: scroll;
+}
+article p {
+	font-size: 15px;
+	font-weight: 800;
+}
+article .btn_subtitle {
+	padding-top: 5px;
+}
+article .btn_school_jump {
+	
+	height: 2.5rem;
+	width: 7.5rem;
+	background-color: #f1f2f6;
+	border: 4px solid #dfe4ea;
+	border-radius: 40px;
+	float: left;
+}
+article .btn_mod_jump {
+	height: 2.5rem;
+	width: 7.5rem;
+	background-color: #f1f2f6;
+	border: 4px solid #dfe4ea;
+	border-radius: 40px;
+	float: left;
+}
+article p {
+	font-size: 18px;
+	padding-top: 0.5%;
+}
+article .download_face {
+	/* width: 1000px; */
+	margin-top: 1.625rem;
+	overflow-x: scroll;
+	/*这行最后注释掉*/
+	border: 4px solid black;
+}
+article .download_menu {
+	width: 2500px;
+	height: 450px;
+	/*这行最后注释掉*/
+	/* border: 2px solid black; */
+	padding-top: 0.625rem;
+}
+article .title3 {
+	width: 120px;
+	margin-left: 30%;
+	text-align: center;
+	/*这行最后注释掉*/
+	/* border: 2px solid black; */
+}
+article .notice {
+	 width: 350px;
+	 margin-left: 40px;
+	 /*这行最后注释掉*/
+	 border: 2px solid black;
+	 float: left;
+ }
+article .docu_CHN {
+	width: 350px;
+	margin-left: 40px;
+	/*这行最后注释掉*/
+	border: 2px solid black;
+	float: left;
+}
+article .docu_MATH {
+	width: 350px;
+	margin-left: 40px;
+	/*这行最后注释掉*/
+	border: 2px solid black;
+	float: left;
+}
+article .docu_ENG {
+	width: 350px;
+	margin-left: 40px;
+	/*这行最后注释掉*/
+	border: 2px solid black;
+	float: left;
+}
+article .docu_PHY {
+	width: 350px;
+	margin-left: 40px;
+	/*这行最后注释掉*/
+	border: 2px solid black;
+	float: left;
+}
+article .docu_CHEM {
+	width: 350px;
+	margin-left: 40px;
+	/*这行最后注释掉*/
+	border: 2px solid black;
+	float: left;
+}
+article .docu_POL {
+	width: 350px;
+	margin-left: 40px;
+	/*这行最后注释掉*/
+	border: 2px solid black;
+	float: left;
+}
+article .docu_HIS {
+	width: 350px;
+	margin-left: 40px;
+	/*这行最后注释掉*/
+	border: 2px solid black;
+	float: left;
+}
+article .docu_GEO {
+	width: 350px;
+	margin-left: 40px;
+	/*这行最后注释掉*/
+	border: 2px solid black;
+	float: left;
+}
+article .docu_BIO {
+	width: 350px;
+	margin-left: 40px;
+	/*这行最后注释掉*/
+	border: 2px solid black;
+	float: left;
+}
+article .docu_EXCT {
+	width: 350px;
+	margin-left: 40px;
+	/*这行最后注释掉*/
+	border: 2px solid black;
+	float: left;
+}
+
+
+footer {
+	margin-bottom: 1px;
+}
+footer .foot{
+	margin: 0 auto;
+	padding-top: 1.25rem;
+	height: 1.875rem;
+	width: 20rem;
+	
+}
+footer h3 {
+	color: #57606f;
+	font-weight: blod;
+	text-align: center;
+}
