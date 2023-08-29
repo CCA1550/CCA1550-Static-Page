@@ -1,0 +1,141 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	list-style: none;
+}
+header {
+	height: 61px;
+}
+header .nav {
+	position: relative;
+	height: 60px;
+}
+header .nav h1 {
+	position: absolute;
+	float: left;
+	padding-top: 5px;
+	padding-left: 20px;
+	font-size: 40px;
+}
+header nav ul {
+	position: absolute;
+	right: 10px;
+	width: 400px;
+	height: 60px;
+	/* float: left; */
+}
+header nav ul li {
+	float: left;
+	width: 25%;
+	padding: 5px;
+	font-size: 30px;
+}
+article{
+	height: 61.25rem;
+	background-color: #dfe4ea;
+}
+article .float_notice {
+	/* float: left; */
+	position: fixed;
+	text-align: center;
+	top: 45%;
+	left: 15%;
+	width: 1000px;
+	height: 160px;
+	font-size: 55px;
+	border: 5px solid white;
+	border-radius: 2.5rem;
+	background-color: #57606f;
+	color: white;
+	opacity: 0.9;
+}
+article #float_notice_time {
+	font-size: 50px;
+	color: white;
+}
+article a {
+	color: #dfe4ea;
+	text-shadow: black 3px 0 0;
+	text-decoration: none;
+}
+article a :hover {
+	color: #70a1ff;
+}
+article .vertical_button {
+	width: 1230px;
+	height: 510px;
+	/* margin-left: 10%; */
+	padding-left: 10%;
+	text-align: center;
+}
+article .vertical_button img {
+	border-radius: 2.5rem;
+}
+article .button_sky {
+	background-image: url(../../img/button_sky.png);
+	width: 25rem;
+	height: 31.25rem;
+	border: 5px solid white;
+	border-radius: 2.5rem;
+	font-size: 30px;
+	float: left;
+}
+article .button_built {
+	background-image: url(../../img/button_built.png);
+	width: 25rem;
+	height: 31.25rem;
+	border: 5px solid white;
+	border-radius: 2.5rem;
+	font-size: 30px;
+	float: left;
+}
+article .button_story {
+	background-image: url(../../img/button_story.png);
+	width: 25rem;
+	height: 31.25rem;
+	border: 5px solid white;
+	border-radius: 2.5rem;
+	font-size: 30px;
+	float: left;
+}
+article .button_avation {
+	background-image: url(../../img/button_avation.png);
+	width: 62.5rem;
+	height: 12.5rem;
+	margin-left: 18%;
+	border: 5px solid white;
+	border-radius: 2.5rem;
+	font-size: 30px;
+	text-align: center;
+	float: left;
+}
+article .button_traffic {
+	background-image: url(../../img/button_traffic.png);
+	width: 62.5rem;
+	height: 12.5rem;
+	margin-left: 18%;
+	border: 5px solid white;
+	border-radius: 2.5rem;
+	font-size: 30px;
+	text-align: center;
+	float: left;
+}
+
+footer {
+	/* padding-top: 1.25rem; */
+	height: 80px;
+	background-color: #dfe4ea;
+}
+footer .foot{
+	margin: 0 auto;
+	padding-top: 1.25rem;
+	height: 1.875rem;
+	width: 20rem;
+	
+}
+footer h3 {
+	color: #57606f;
+	font-weight: blod;
+	text-align: center;
+}

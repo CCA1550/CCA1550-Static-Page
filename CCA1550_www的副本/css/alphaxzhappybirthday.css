@@ -4,8 +4,10 @@ h1 {
 	padding-top: 4rem;
 }
 .abc {
+	position: absolute;
 	height: 40px;
 	width: 600px;
+	right: 10px;
 	text-align: center;
 	
 }

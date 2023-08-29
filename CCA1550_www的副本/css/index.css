@@ -3,6 +3,10 @@
 		float:none;
 	}
 }
+html {
+    filter: progid:DXImageTransform.Microsoft.BasicImage(grayscale=1);
+    /* -webkit-filter: grayscale(100%); */
+}
 * {
 	margin: 0;
 	padding: 0;
@@ -17,8 +21,8 @@ body {
 .front {
 	margin: 0 auto;
 	/* float: left; */
-	width: 400px;
-	height: 50rem;
+	width: 25rem;
+	/* height: 50rem; */
 	background-color: #a4b0be;
 }
 
@@ -30,10 +34,48 @@ header .title{
 	text-align: center;
 	font-size: 1.4rem;
 }
+header #date {
+	position: absolute;
+	text-align: center;
+	font-size: 20px;
+	opacity: 0;
+	transition: opacity cubic-bezier(1, 0, 1, 1) 1.2s;
+}
+
+.tools_menu {
+	position: absolute;
+	top: 316px;
+	right: 2%;
+}
+.tools_menu a {
+	text-decoration: none;
+}
+.tools_menu_button {
+	height: 50px;
+	width: 100px;
+	background-color: #70a1ff;
+	border-radius: 25px;
+	text-align: center;
+}
+.tools_menu_button p {
+	padding-top: 12%;
+	color: #f1f2f6;
+}
+
+.sponsor {
+	position: absolute;
+	top: 42.25rem;
+	right: 2%;
+	font-size: 20px;
+}
+.sponsor a {
+	text-decoration: none;
+}
 
 article {
 	text-align: center;
 	font-size: 20px;
+	height: 580px;
 	/* background-color: #a4b0be; */
 }
 article .intro {
@@ -111,19 +153,50 @@ article .nav .blog {
 	margin-left: 10px;
 	float: left;
 }
-
-footer {
-	padding-top: 8.125rem;
+article .nav .sponsor {
+	background-color: #f1f2f6;
+	box-shadow: 5px 5px #57606f;
+	width: 100px;
+	height: 200px;
+	border: 2px solid white;
+	border-radius: 20px;
+	margin-left: 10px;
+	float: left;
 }
+
 footer .foot{
 	margin: 0 auto;
-	padding-top: 1.25rem;
-	height: 1.875rem;
+	height: 4rem;
 	width: 20rem;
 	
 }
 footer h3 {
-	color: #57606f;
-	font-weight: blod;
+	color: #f1f2f6;
+	font-weight: 600;
 	text-align: center;
+}
+
+#popup {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width:auto;
+	height: auto;
+	border-radius:20px;
+	background-color: #747d8c;
+	padding: 20px;
+	text-align: center;
+	z-index: 999;
+}
+.content p {
+	color: aliceblue;
+	font-size: 20px;
+}
+
+#close {
+	position: absolute;
+	top: 6px;
+	right: 6px;
+	cursor: pointer;
 }

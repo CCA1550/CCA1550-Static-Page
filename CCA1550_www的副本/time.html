@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>CCA1550-WEB</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<meta name="keywords" content="personal,aviation,photography,个人主页,航空,摄影">
+		<link rel="icon" href="./img/profile_photo.ico" type="image/x-icon"/>
+		<link rel="shortcut icon" href="./img/profile_photo.ico" type="image/x-icon"/>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<script src="./js/time.js"></script>
+	</head>
+	<body onload="openFunction()">
+		<script type="text/javascript">
+			function openFunction(){
+				setTimeout(function(){location.reload()},1000);
+				var Var=Date();
+				document.getElementById("div_text").innerHTML = Var;
+			};
+		</script>
+		
+		<div class="front" style="width: 400px;">
+			<header>
+				<div class="title">
+					<h1>CCA1550-WEB</h1>
+					<h3>CCA1550授时服务:</h3>
+				</div>
+			</header>
+			
+			<article>
+				<br><br><br><br><br>
+				<div>
+					<h2 id="div_text" style="font-size: 45px; color: aliceblue;"></h2>
+				</div>
+				<br><br>
+				<p>注：本授时系统仅为服务器主机时间的展示，切不可应用于实际生活/生产</p>
+			</article>
+		</div>
+		
+	</body>
+</html>

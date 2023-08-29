@@ -1,0 +1,255 @@
+
+
+/* 设置背景颜色 */
+body {
+	background-color: #70a1ff;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+.preface {
+	margin-top: 10%;
+}
+
+/* 设置大标题样式 */
+h1 {
+	font-size: 60px;
+	color: #fff;
+	margin-top: 0%;
+	/* padding: 10vh; */
+	text-align: center;
+}
+
+/* 设置序言样式 */
+p {
+	
+	font-size: 24px;
+	color: #fff;
+	text-align: center;
+}
+
+.intro-container {
+	margin-top: 10%;
+	background-color: #ced6e0;
+	padding: 20px;
+	font-size: 23px;
+	line-height: 1.5;
+	color: #333;
+}
+
+.intro-container h2 {
+	font-size: 40px;
+	color: #70a1ff;
+	text-shadow: 4px 4px 5px white;
+	font-weight: bold;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.intro-container h3 {
+	font-size: 30px;
+	color: #70a1ff;
+	text-shadow: 4px 4px 5px white;
+	font-weight: bold;
+	margin-bottom: 10px;
+	text-align: left;
+}
+
+.intro-container p {
+	text-align: left;
+	font-size: 28px;
+	font-weight: 400;
+	color: white;
+	/* -webkit-text-stroke: 1.2px #70a1ff; */
+}
+
+.intro-container a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.intro-container a :hover {
+	color: #2f3542;
+}
+
+#scroll-btn {
+	position: fixed;
+	bottom: 50px;
+	/* right: 20px; */
+	background-color: #333;
+	color: #fff;
+	border: none;
+	border-radius: 30px;
+	padding: 15px 20px;
+	font-size: 20px;
+	cursor: pointer;
+	z-index: 9999;
+	box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.3);
+	transition: transform 0.2s ease-in-out;
+}
+
+#scroll-btn:hover {
+	transform: scale(1.1);
+}
+
+
+.title-container {
+	margin-top: 10%;
+}
+
+.page-subtitle {
+	font-size: 36px;
+	font-weight: bold;
+	text-shadow: 2px 2px 2px #ccc;
+	background-image: linear-gradient(to right, #ced6e0,#70a1ff);
+	color: #fff;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+.page-subtitle-describe {
+	margin-top: 80px;
+	text-shadow: 2px 2px 2px #333;
+	text-align: center;
+}
+
+#myBtn {
+	/* display: none; */ 
+	position: fixed; /* 按钮固定在屏幕上 */
+	bottom: 20px; /* 距离底部20px */
+	right: 30px; /* 距离右侧30px */
+	z-index: 99; /* 按钮置于最上层 */
+	font-size: 18px; /* 按钮字体大小 */
+	border: none;
+	outline: none;
+	background-color: #555; /* 按钮背景色 */
+	color: white; /* 按钮字体颜色 */
+	cursor: pointer; /* 鼠标光标为手型 */
+	padding: 20px; /* 按钮内边距 */
+	border-radius: 30px; /* 按钮圆角半径为50% */
+	opacity: 0.6; /* 按钮透明度 */
+}
+
+#myBtn:hover {
+	background-color: #333; /* 鼠标悬停时按钮背景色变为深灰色 */
+}
+
+.audio {
+	z-index: 99;
+	position: -webkit-sticky;
+	position: sticky;
+	top: 90%;
+}
+
+#a {
+	opacity: 0.6; /* 按钮透明度 */
+	width: 180px;
+}
+
+/* 设置图片容器样式 */
+.image-container {
+	max-width: 90%;
+	margin: 10% auto;
+	padding: 40px 0;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(560px, 1fr));
+	grid-gap: 40px;
+	justify-items: center;
+	margin-bottom: 50px;
+	
+/* 	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto; */
+}
+
+.image-container {
+	max-width: 90%;
+	margin: 10% auto;
+	padding: 40px 0;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(560px, 1fr));
+	grid-gap: 40px;
+	justify-items: center;
+	margin-bottom: 50px;
+}
+
+.image-box {
+	max-width: 100%;
+	box-sizing: border-box;
+	/* text-align: center; */
+}
+
+.image-container h2 {
+	color: #fff;
+	text-shadow: 2px 2px #000;
+	font-size: 24px;
+	font-weight: bold;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+/* 设置图片样式 */
+.image-container img {
+	max-width: 520px;
+	height: auto;
+	margin: 30px;
+	border: 0.3125rem solid #ff4757; 
+	border-radius: 10px; 
+	box-shadow: 15px 15px 12px #ced6e0; 
+}
+
+/* 设置文字描述样式 */
+.image-container p {
+	max-width: 450px;
+	padding-left: 5%;
+	font-size: 18px;
+	color: white;
+	text-shadow: 8px 8px 13px black;
+	margin-top: 10px;
+	text-align: left;
+	
+}
+
+.foot-container {
+	margin-top: 60%;
+	background-color: #ced6e0;
+	padding: 20px;
+	font-size: 23px;
+	line-height: 1.5;
+	color: #333;
+}
+
+.foot-container h2 {
+	font-size: 40px;
+	color: #70a1ff;
+	text-shadow: 4px 4px 5px white;
+	font-weight: bold;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.foot-container p {
+	text-align: left;
+	font-size: 30px;
+	font-weight: 400;
+	color: white;
+	/* -webkit-text-stroke: 1.2px #70a1ff; */
+}
+
+.foot-container a {
+	color: #fff;
+	/* text-decoration: none; */
+}
+
+.foot-container a :hover {
+	color: #2f3542;
+}

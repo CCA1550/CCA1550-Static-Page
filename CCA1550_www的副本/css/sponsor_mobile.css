@@ -1,0 +1,27 @@
+p {
+	/* margin-top: 10px; */
+	font-size: 100px;
+	font-weight: 500;
+	text-align: center;
+}
+
+.img {
+	position: relative;
+	margin-left: 25%;
+}
+#img {
+	width: 500px;
+}
+
+.button {
+	position: absolute;
+	text-align: center;
+	left: 25%;
+}
+button {
+	height: 100px;
+	width: 200px;
+	font-size: 60px;
+	border-radius: 100px;
+	text-align: center;
+}
